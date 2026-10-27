@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulários</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/post.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Cadastrar destinos</h1>
+            <p>Preencha os dados abaixo.</p>
+        </header>
+        <main>
+            <section id="formulario">
+                <form id="form-destino">
+            <h2>Novo destino</h2>
+            <label for="title">Cidade:</label>
+            <input id="title" name="title" type="text" minlength="3" maxlength="120" required/>
+    
+            <label for="pais">País:</label>
+            <input id="pais" name="pais" type="text" required/>
+
+            <label for="tipo_destino">Tipo principal do destino:</label>
+            <input id="tipo_destino" name="tipo_destino" type="text" required/>
+
+             <label for="melhor_epoca">Melhor época para visitar:</label>
+            <input id="melhor_epoca" name="melhor_epoca" type="text" required/>
+
+            <label for="custo_medio">Custo médio estimado:</label>
+            <input id="custo_medio" name="custo_medio" type="number" required/>
+
+            <label for="imgUrl">URL da imagem:</label>
+            <input id="imgUrl" name="imgUrl" type="url" />
+
+            <button type="submit">Enviar destino</button>
+                </form>
+                
+            </section>
+            <p id="resposta"></p>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
