@@ -7,7 +7,7 @@ const resposta = document.querySelector("#resposta");
 // 2 . Comunicacao com a API
 // Lembrete o codeverse tem APIKey ou seja senha nas req.
 
-const apiKey = "cv_B7G4lkJtwNASau0AyETLet1R9aRLbVt1eR8eMcbgU_Y3IcB2iN_452sL8uKw5llX";
+const apiKey = "cv_lXya3dY6ClRnOxterp9XepAXxdYMriuRa2ELDRdqLMSookHFV9OLefr5eajgjBd2";
 
 // Tem que falar o link (endpoint)
 const apiUrl = "https://api-ds.codeverse.dev.br/api/destinos";
